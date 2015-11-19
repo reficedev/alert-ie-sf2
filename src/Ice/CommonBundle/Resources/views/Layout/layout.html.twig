@@ -1,0 +1,25 @@
+<!doctype html>
+<!--[if IE 8]>
+<html lang="{{ app.request.locale  }}" class="ie8"><![endif]-->
+<!--[if IE 9]>
+<html lang="{{ app.request.locale  }}" class="ie9"><![endif]-->
+<!--[if !IE]><!-->
+<html lang="{{ app.request.locale }}"><!--<![endif]-->
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+</head>
+<body>
+
+<!--[if IE]>
+{% include "IceCommonBundle:Layout:_alertie.html.twig" %}
+<!-->
+<noscript>
+    <div class="noscript_warning">
+        Attention, vous avez désactivé le JS sur votre navigateur !
+    </div>
+</noscript>
+
+</body>
+</html>
